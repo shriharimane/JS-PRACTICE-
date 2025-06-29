@@ -8,7 +8,7 @@ inpuTextArea.addEventListener("input",()=>{
     characCount.textContent = inpuTextArea.value.length;
 
     // Words Counts 
-
+  
     const txt = inpuTextArea.value.trim();
     const wordArray = txt.split(/\s+/);
 
